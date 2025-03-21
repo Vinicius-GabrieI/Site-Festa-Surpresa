@@ -1,0 +1,46 @@
+.planejamento {
+    padding: 1em;
+}
+
+.planejamento__introducao {
+    text-align: center;
+    margin: 10em 0 4em;
+}
+
+.introducao__titulo {
+    font-size: 50px;
+    font-family: var(--fonte-titulo);
+}
+
+.introducao__texto {
+    margin: 1em 0;
+    font-size: 20px;
+}
+
+.planejamento__card {
+    display: flex;
+    align-items: center;
+    gap: 6em;
+    margin-top: 5em;
+    padding: 0 6em;
+}
+
+.card__descricao {
+    width: 45%;
+}
+
+.card__descricao-titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+}
+
+.card__descricao-texto {
+    font-size: 20px;
+    margin-top: 1em;
+    padding-bottom: 7em;
+}
+
+.card__imagem {
+    width: 45%;
+    border-radius: 25px;
+}

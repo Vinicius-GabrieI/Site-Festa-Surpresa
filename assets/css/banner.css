@@ -1,0 +1,43 @@
+.banner {
+    background-color: var(--marrom);
+    padding: 5.5em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12em 0;
+}
+
+.banner__depoimento,
+.banner__lily-foto,
+.banner__lily-nome {
+    background-color: transparent;
+    color: var(--branco);
+}
+
+.banner__depoimento {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    width: 50%;
+}
+
+.banner__lily {
+    background-color: var(--marrom);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 2em;
+}
+
+.banner__lily-foto {
+    height: 3em;
+    border: 2px solid var(--branco);
+    border-radius: 100%;
+}
+
+.banner__lily-nome {
+    font-size: 20px;
+    font-weight: bold;
+}

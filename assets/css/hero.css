@@ -1,0 +1,80 @@
+.hero {
+    display: flex;
+    padding: 2em 20em;
+    margin-top: 5em;
+}
+
+.hero__conteudo {
+    width: 50%;
+}
+
+.conteudo__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 65px;
+    margin-top: 0.5em;
+    width: 50%;
+}
+
+.conteudo__texto {
+    font-size: 20px;
+    font-family: var(--fonte-texto);
+    margin: 0.5em 0 2.5em 0;
+    width: 25em;
+}
+
+.hero__form {
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.hero__form-input {
+    width: 26em;
+    padding: 0.8em 0.8em 0.8em 1em;
+    border: 0.1px solid rgb(206, 206, 206);
+    border-radius: 7px;
+}
+
+.hero__form-input:focus {
+    border: 2px solid var(--marrom);
+    outline: none;
+}
+
+.hero__form-botao {
+    background-color: var(--marrom);
+    color: var(--branco);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 9em;
+    height: 2.5em;
+    margin: 0 0.3em;
+    cursor: pointer;
+}
+
+.blockquote {
+    margin-top: 1.5em;
+}
+
+.blockquote__depoimento {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+.blockquote__depoimento-foto {
+    height: 2em;
+    border: 2px solid var(--marrom);
+    border-radius: 100%;
+}
+
+.hero__imagem {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.hero__imagem-foto {
+    width: 100%;
+    border-radius: 30px;
+}

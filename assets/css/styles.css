@@ -1,0 +1,24 @@
+@import url(cabecalho.css);
+@import url(hero.css);
+@import url(planejamento.css);
+@import url(banner.css);
+@import url(card.css);
+@import url(rodape.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--branco);
+    font-size: 16px;
+    font-family: var(--fonte-texto);
+    color: var(--preto);
+}
+
+:root {
+    --branco: #ffffff;
+    --preto: #000000;
+    --marrom: #8c6d6e;
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-texto: "Poppins", sans-serif;
+}
