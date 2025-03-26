@@ -1,0 +1,30 @@
+@import url(cabecalho.css);
+@import url(rodape.css);
+@import url(index.css);
+@import url(service.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(agendamento.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--branco);
+    font-size: 16px;
+    font-family: var(--fonte-texto);
+    color: var(--preto);
+}
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza-claro: #616161;
+    --marrom: #8C6D6E;
+    --azul-escuro: #111827;
+    --cor-form: #CECECE;
+    --cor-hover-form: #a18081;
+    --cor-borda-card: #949494;
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-texto: "Poppins", sans-serif;
+}

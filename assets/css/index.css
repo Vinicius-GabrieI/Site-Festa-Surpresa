@@ -1,0 +1,174 @@
+.hero {
+    display: flex;
+    padding: 2em 15em;
+    margin-top: 5em;
+}
+
+.hero__conteudo {
+    width: 50%;
+}
+
+.hero__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 65px;
+    margin-top: 0.5em;
+}
+
+.hero__texto {
+    font-size: 20px;
+    font-family: var(--fonte-texto);
+    margin: 0.5em 0 2.5em 0;
+    width: 30vw;
+}
+
+.hero__form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.hero__form-input {
+    width: 26em;
+    padding: 0.8em 0.8em 0.8em 1em;
+    border: 0.1px solid var(--cor-form);
+    border-radius: 7px;
+}
+
+.hero__form-input:focus {
+    border: 2px solid var(--marrom);
+    outline: none;
+}
+
+.hero__form-botao {
+    background-color: var(--marrom);
+    color: var(--branco);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 9em;
+    height: 2.5em;
+    margin: 0 0.3em;
+    cursor: pointer;
+}
+
+.hero__form-botao:hover {
+    background-color: var(--cor-hover-form);
+}
+
+.hero__avaliacao-depoimento {
+    margin-top: 1.5em;
+}
+
+.hero__avaliacao-autor {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+.hero__avaliacao-foto {
+    height: 2em;
+    border: 2px solid var(--marrom);
+    border-radius: 100%;
+}
+
+.hero__imagem {
+    width: 50%;
+    align-content: center;
+}
+
+.hero__imagem-foto {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.planejamento {
+    padding: 1em;
+}
+
+.planejamento__introducao {
+    text-align: center;
+    margin: 10em 0 4em;
+}
+
+.planejamento__introducao-titulo {
+    font-size: 50px;
+    font-family: var(--fonte-titulo);
+}
+
+.planejamento__introducao-texto {
+    margin: 1em 0;
+    font-size: 20px;
+}
+
+.planejamento__card {
+    display: flex;
+    align-items: center;
+    gap: 6em;
+    margin-top: 5em;
+    padding: 0 6em;
+}
+
+.planejamento__card-imagem {
+    width: 45%;
+    border-radius: 25px;
+}
+
+.planejamento__card-descricao {
+    width: 45%;
+}
+
+.planejamento__card-titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+}
+
+.planejamento__card-texto {
+    font-size: 20px;
+    margin-top: 1em;
+    padding-bottom: 7em;
+}
+
+.banner {
+    background-color: var(--marrom);
+    padding: 5.5em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12em 0;
+}
+
+.banner__depoimento,
+.banner__lily-foto,
+.banner__lily-nome {
+    background-color: transparent;
+}
+
+.banner__depoimento {
+    color: var(--branco);
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    width: 50%;
+}
+
+.banner__lily {
+    background-color: var(--marrom);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 2em;
+}
+
+.banner__lily-foto {
+    height: 3em;
+    border: 2px solid var(--branco);
+    border-radius: 100%;
+}
+
+.banner__lily-nome {
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <a href="index.html" class="cabecalho__link">
+                <img src="./assets/images/FestaSurpresa.svg" alt="HUB Festa Surpresa" loading="lazy"
+                    class="cabecalho__imagem">
+                <h2 class="cabecalho__titulo">Festa Surpresa</h2>
+            </a>
+        </div>
+
+        <div class="cabecalho__menu">
+            <a href="service.html" class="cabecalho__link-nav">Serviço</a>
+            <a href="about.html" class="cabecalho__link-nav">Sobre Nós</a>
+            <a href="contact.html" class="cabecalho__link-nav">Contato</a>
+        </div>
+    </header>
+
+    <div class="contato">
+        <h1 class="contato__titulo">Fale Conosco</h1>
+        <p class="contato__texto">Agende uma reunião ou chamada com a equipe.</p>
+    </div>
+
+    <form class="form">
+        <label for="nome" class="form__legenda"><strong>Nome*</strong></label>
+        <br>
+        <input type="text" id="nome" name="nome" placeholder="Nome..." required class="form__campo">
+
+        <br>
+
+        <label for="sobrenome" class="form__legenda"><strong>Sobrenome*</strong></label>
+        <br>
+        <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome..." required class="form__campo">
+
+        <br>
+
+        <label for="email" class="form__legenda"><strong>E-mail*</strong></label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="E-mail..." required class="form__campo">
+
+        <br>
+
+        <label for="pergunta" class="form__legenda"><b>Sua pergunta</b></label>
+        <br>
+        <textarea name="pergunta" id="pergunta" rows="4" cols="50" placeholder="Sua pergunta..."
+            class="form__campo"></textarea>
+
+        <br>
+
+        <input type="checkbox" id="checkbox" name="checkbox" required class="form__checkbox">
+        <label for="checkbox" class="form__legenda-checkbox">Eu concordo com a política de privacidade</label>
+
+        <br>
+
+        <button type="submit" class="form__botao">Enviar</button>
+    </form>
+
+    <section class="duvida">
+        <h2 class="duvida__titulo">Dúvidas</h2>
+        <h3 class="duvida__subtitulo">Quais são os principais motivos para entrar em contato?</h3>
+        <p class="duvida__texto">Entre em contato com a equipe para tirar dúvidas sobre nossos produtos ou serviços.</p>
+        <hr>
+        <h3 class="duvida__subtitulo">Vocês fazem reuniões remotas?</h3>
+        <p class="duvida__texto">Sim, podemos fazer reuniões remotas. Basta informar nas notas da reunião.
+        </p>
+        <hr>
+        <h3 class="duvida__subtitulo">Como posso solicitar uma ligação de retorno?</h3>
+        <p class="duvida__texto">Basta incluir seu número de telefone e mencioná-lo no campo fornecido.</p>
+    </section>
+
+    <footer class="rodape">
+        <nav class="rodape__nav">
+            <ul class="rodape__lista">
+                <li><a href="./index.html" class="rodape__nav-link">Homepage</a></li>
+                <li><a href="./service.html" class="rodape__nav-link">Serviço</a></li>
+                <li><a href="./about.html" class="rodape__nav-link">Sobre nós</a></li>
+                <li><a href="./contact.html" class="rodape__nav-link">Contato</a></li>
+            </ul>
+        </nav>
+
+        <ul class="rodape__lista">
+            <li><a href="#"><img src="./assets/images/LogoFacebook.png" alt="Facebook" loading="lazy"
+                        class="rodape__icone-rede"></a></li>
+            <li><a href="#"><img src="./assets/images/LogoInstragram.png" alt="Instagram" loading="lazy"
+                        class="rodape__icone-rede"></a></li>
+            <li><a href="#"><img src="./assets/images/LogoYoutube.png" alt="Youtube" loading="lazy"
+                        class="rodape__icone-rede"></a></li>
+            <li><a href="#"><img src="./assets/images/LogoLinkedIn.png" alt="LinkedIn" loading="lazy"
+                        class="rodape__icone-rede"></a></li>
+        </ul>
+
+        <p class="rodape__direitos">© All rights reserved.</p>
+
+    </footer>
+</body>
+
+</html>

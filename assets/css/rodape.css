@@ -1,0 +1,36 @@
+.rodape {
+    text-align: center;
+    padding: 1em;
+    border-top: 0.1px solid var(--cor-form);
+}
+
+.rodape__nav {
+    padding: 3em 1em 1em 1em;
+}
+
+.rodape__lista {
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+}
+
+.rodape__nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 2em;
+}
+
+.rodape__icone-rede {
+    width: 1.3vw;
+    margin: 1.6em 0.75em;
+}
+
+.rodape__direitos {
+    font-size: 14px;
+    padding-bottom: 2.5em;
+}
+
+.rodape__nav-link,
+.rodape__direitos {
+    color: var(--cinza-claro);
+}

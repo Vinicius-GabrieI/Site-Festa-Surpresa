@@ -1,0 +1,57 @@
+.agendamento {
+    display: flex;
+    justify-content: center;
+    margin: 18em;
+}
+
+.agendamento__card {
+    padding: 7em;
+    width: 65vw;
+    height: 50vh;
+    border: 1px solid var(--cor-borda-card);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.agendamento__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 50px;
+}
+
+.agendamento__texto {
+    margin: 1em 0 3em 0;
+    padding: 0em 10em;
+}
+
+.agendamento__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agendamento__input {
+    width: 45%;
+    padding: 0.8em 0.8em 0.8em 1em;
+    border: 0.1px solid var(--cor-form);
+    border-radius: 7px;
+}
+
+.agendamento__input:focus {
+    border: 2px solid var(--marrom);
+    outline: none;
+}
+
+.agendamento__botao {
+    background-color: var(--marrom);
+    color: var(--branco);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 9em;
+    height: 2.5em;
+    margin: 0 0.3em;
+    cursor: pointer;
+}
+
+.agendamento__botao:hover {
+    background-color: var(--cor-hover-form);
+}
